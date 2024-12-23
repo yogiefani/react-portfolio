@@ -4,6 +4,9 @@ export default {
   theme: {
     extend: {
       keyframes: {
+        marquee: {
+          to: { transform: "translateX(-50%)" },
+        },
         twinkle: {
           "0%, 100%": { opacity: 1, transform: "scale(1)" },
           "50%": { opacity: 0.3, transform: "scale(0.8)" },
@@ -14,6 +17,7 @@ export default {
         },
       },
       animation: {
+        marquee: "marquee var(--duration, 30s) linear infinite",
         twinkle: "twinkle 2s ease-in-out infinite",
         pulse: "pulse 3s ease-in-out infinite",
       },
