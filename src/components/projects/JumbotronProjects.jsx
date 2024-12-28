@@ -4,7 +4,7 @@ const JumbotronProjects = () => {
     <div className="h-screen w-screen overflow-hidden">
       <div className="mx-auto mt-32 w-screen max-w-2xl">
         <div className="text-center text-3xl text-white">
-          <span className="text-indigo-200">Trusted by experts.</span>
+          <span className="text-indigo-200">Trusted by me.</span>
 
           <br />
 
