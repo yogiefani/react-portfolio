@@ -12,16 +12,16 @@ const Home = () => {
       <div className="max-w-7xl mx-auto px-4 py-12">
         <HeroSection />
         <div className="mt-20">
-          <NewsletterSection />
+          <ServicesSection />
         </div>
         <div className="mt-20">
           <ProjectsSection />
         </div>
         <div className="mt-20">
-          <ServicesSection />
-        </div>
-        <div className="mt-20">
           <TestimonialsSection />
+        </div>
+        <div className="">
+          <NewsletterSection />
         </div>
       </div>
     </div>
