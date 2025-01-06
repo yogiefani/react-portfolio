@@ -77,9 +77,13 @@ export const HeroSection = () => {
           </div>
         </div>
 
-        <div className="order-1 md:order-2">
+        <div className="order-1 md:order-2 center">
           <div className="relative">
-            <img className="w-full" src={profileImage} alt="Profile" />
+            <img
+              className="w-80 m-auto md:w-full"
+              src={profileImage}
+              alt="Profile"
+            />
           </div>
         </div>
       </div>
