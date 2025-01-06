@@ -33,7 +33,7 @@ export const TestimonialsSection = () => {
   return (
     <div>
       <h2 className="text-3xl font-bold text-white">What they say</h2>
-      <div className="relative flex h-screen w-screen items-center ">
+      <div className="relative flex h-screen w-screen items-center -mt-64 -mb-60 ">
         <div className="relative flex max-w-[100vw] overflow-hidden ">
           <div className="flex w-max animate-marquee [--duration:30s] hover:[animation-play-state:paused]">
             {[...testimonials, ...testimonials].map((testimonial, index) => (
